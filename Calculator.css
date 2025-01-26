@@ -1,0 +1,52 @@
+
+*{
+  
+margin: 0;
+padding: 0;
+font-size: 25px;
+font-family:cursive;
+border-radius: 10px; 
+cursor: default;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  
+  background-image: url("https://cdn.wallpapersafari.com/67/79/9arpdx.jpg");
+}
+
+#main{
+  padding: 10px;
+margin-top: 10%;
+  height: 500px;
+  width: 400px;
+  border: 2px solid;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(7,1fr);
+border-radius: 3%;
+overflow: hidden;
+box-shadow:  1px 1px 10px rgb(224, 216, 216);
+
+
+
+}
+.button{
+  
+    backdrop-filter: blur(20px);
+    text-align: center;
+   margin: 5px;
+    border: 2px solid;
+    padding-top: 10px;
+   
+}
+#input{
+
+    grid-column:1/5 ;
+    font-size: 40px;
+    padding-top: 2px;
+    padding-left: 20px;
+ 
+
+}
